@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB1026C02D9646530085A9BB /* green_upApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1026BF2D9646530085A9BB /* green_upApp.swift */; };
+		FB1026C22D9646530085A9BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1026C12D9646530085A9BB /* ContentView.swift */; };
+		FB1026C42D9646540085A9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1026C32D9646540085A9BB /* Assets.xcassets */; };
+		FB1026C72D9646540085A9BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1026C62D9646540085A9BB /* Preview Assets.xcassets */; };
+		FB1026D12D9646540085A9BB /* green_upTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1026D02D9646540085A9BB /* green_upTests.swift */; };
+		FB1026DB2D9646540085A9BB /* green_upUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1026DA2D9646540085A9BB /* green_upUITests.swift */; };
+		FB1026DD2D9646540085A9BB /* green_upUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1026DC2D9646540085A9BB /* green_upUITestsLaunchTests.swift */; };
+		FB1026F02D9723190085A9BB /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1026EF2D9723190085A9BB /* Inicio.swift */; };
+		FB1026F22D975FAA0085A9BB /* Mapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1026F12D975FAA0085A9BB /* Mapa.swift */; };
+		FB1026F42D975FE40085A9BB /* 3R.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1026F32D975FE40085A9BB /* 3R.swift */; };
+		FB1026F62D975FF70085A9BB /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1026F52D975FF70085A9BB /* Perfil.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB1026CD2D9646540085A9BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1026B42D9646530085A9BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1026BB2D9646530085A9BB;
+			remoteInfo = "green up";
+		};
+		FB1026D72D9646540085A9BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1026B42D9646530085A9BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1026BB2D9646530085A9BB;
+			remoteInfo = "green up";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB1026BC2D9646530085A9BB /* green up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "green up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1026BF2D9646530085A9BB /* green_upApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = green_upApp.swift; sourceTree = "<group>"; };
+		FB1026C12D9646530085A9BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB1026C32D9646540085A9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB1026C62D9646540085A9BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB1026CC2D9646540085A9BB /* green upTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "green upTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1026D02D9646540085A9BB /* green_upTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = green_upTests.swift; sourceTree = "<group>"; };
+		FB1026D62D9646540085A9BB /* green upUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "green upUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1026DA2D9646540085A9BB /* green_upUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = green_upUITests.swift; sourceTree = "<group>"; };
+		FB1026DC2D9646540085A9BB /* green_upUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = green_upUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB1026EF2D9723190085A9BB /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
+		FB1026F12D975FAA0085A9BB /* Mapa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapa.swift; sourceTree = "<group>"; };
+		FB1026F32D975FE40085A9BB /* 3R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3R.swift; sourceTree = "<group>"; };
+		FB1026F52D975FF70085A9BB /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB1026B92D9646530085A9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1026C92D9646540085A9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1026D32D9646540085A9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB1026B32D9646530085A9BB = {
+			isa = PBXGroup;
+			children = (
+				FB1026BE2D9646530085A9BB /* green up */,
+				FB1026CF2D9646540085A9BB /* green upTests */,
+				FB1026D92D9646540085A9BB /* green upUITests */,
+				FB1026BD2D9646530085A9BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB1026BD2D9646530085A9BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB1026BC2D9646530085A9BB /* green up.app */,
+				FB1026CC2D9646540085A9BB /* green upTests.xctest */,
+				FB1026D62D9646540085A9BB /* green upUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1026BE2D9646530085A9BB /* green up */ = {
+			isa = PBXGroup;
+			children = (
+				FB1026BF2D9646530085A9BB /* green_upApp.swift */,
+				FB1026C12D9646530085A9BB /* ContentView.swift */,
+				FB1026EF2D9723190085A9BB /* Inicio.swift */,
+				FB1026F12D975FAA0085A9BB /* Mapa.swift */,
+				FB1026F32D975FE40085A9BB /* 3R.swift */,
+				FB1026F52D975FF70085A9BB /* Perfil.swift */,
+				FB1026C32D9646540085A9BB /* Assets.xcassets */,
+				FB1026C52D9646540085A9BB /* Preview Content */,
+			);
+			path = "green up";
+			sourceTree = "<group>";
+		};
+		FB1026C52D9646540085A9BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB1026C62D9646540085A9BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB1026CF2D9646540085A9BB /* green upTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB1026D02D9646540085A9BB /* green_upTests.swift */,
+			);
+			path = "green upTests";
+			sourceTree = "<group>";
+		};
+		FB1026D92D9646540085A9BB /* green upUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB1026DA2D9646540085A9BB /* green_upUITests.swift */,
+				FB1026DC2D9646540085A9BB /* green_upUITestsLaunchTests.swift */,
+			);
+			path = "green upUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB1026BB2D9646530085A9BB /* green up */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1026E02D9646540085A9BB /* Build configuration list for PBXNativeTarget "green up" */;
+			buildPhases = (
+				FB1026B82D9646530085A9BB /* Sources */,
+				FB1026B92D9646530085A9BB /* Frameworks */,
+				FB1026BA2D9646530085A9BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "green up";
+			productName = "green up";
+			productReference = FB1026BC2D9646530085A9BB /* green up.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB1026CB2D9646540085A9BB /* green upTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1026E32D9646540085A9BB /* Build configuration list for PBXNativeTarget "green upTests" */;
+			buildPhases = (
+				FB1026C82D9646540085A9BB /* Sources */,
+				FB1026C92D9646540085A9BB /* Frameworks */,
+				FB1026CA2D9646540085A9BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB1026CE2D9646540085A9BB /* PBXTargetDependency */,
+			);
+			name = "green upTests";
+			productName = "green upTests";
+			productReference = FB1026CC2D9646540085A9BB /* green upTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB1026D52D9646540085A9BB /* green upUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1026E62D9646540085A9BB /* Build configuration list for PBXNativeTarget "green upUITests" */;
+			buildPhases = (
+				FB1026D22D9646540085A9BB /* Sources */,
+				FB1026D32D9646540085A9BB /* Frameworks */,
+				FB1026D42D9646540085A9BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB1026D82D9646540085A9BB /* PBXTargetDependency */,
+			);
+			name = "green upUITests";
+			productName = "green upUITests";
+			productReference = FB1026D62D9646540085A9BB /* green upUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB1026B42D9646530085A9BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FB1026BB2D9646530085A9BB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FB1026CB2D9646540085A9BB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FB1026BB2D9646530085A9BB;
+					};
+					FB1026D52D9646540085A9BB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FB1026BB2D9646530085A9BB;
+					};
+				};
+			};
+			buildConfigurationList = FB1026B72D9646530085A9BB /* Build configuration list for PBXProject "green up" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB1026B32D9646530085A9BB;
+			productRefGroup = FB1026BD2D9646530085A9BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB1026BB2D9646530085A9BB /* green up */,
+				FB1026CB2D9646540085A9BB /* green upTests */,
+				FB1026D52D9646540085A9BB /* green upUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB1026BA2D9646530085A9BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1026C72D9646540085A9BB /* Preview Assets.xcassets in Resources */,
+				FB1026C42D9646540085A9BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1026CA2D9646540085A9BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1026D42D9646540085A9BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB1026B82D9646530085A9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1026F22D975FAA0085A9BB /* Mapa.swift in Sources */,
+				FB1026C22D9646530085A9BB /* ContentView.swift in Sources */,
+				FB1026C02D9646530085A9BB /* green_upApp.swift in Sources */,
+				FB1026F62D975FF70085A9BB /* Perfil.swift in Sources */,
+				FB1026F42D975FE40085A9BB /* 3R.swift in Sources */,
+				FB1026F02D9723190085A9BB /* Inicio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1026C82D9646540085A9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1026D12D9646540085A9BB /* green_upTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1026D22D9646540085A9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1026DD2D9646540085A9BB /* green_upUITestsLaunchTests.swift in Sources */,
+				FB1026DB2D9646540085A9BB /* green_upUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB1026CE2D9646540085A9BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB1026BB2D9646530085A9BB /* green up */;
+			targetProxy = FB1026CD2D9646540085A9BB /* PBXContainerItemProxy */;
+		};
+		FB1026D82D9646540085A9BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB1026BB2D9646530085A9BB /* green up */;
+			targetProxy = FB1026D72D9646540085A9BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB1026DE2D9646540085A9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB1026DF2D9646540085A9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB1026E12D9646540085A9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"green up/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.green-up";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB1026E22D9646540085A9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"green up/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.green-up";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB1026E42D9646540085A9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.green-upTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/green up.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/green up";
+			};
+			name = Debug;
+		};
+		FB1026E52D9646540085A9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.green-upTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/green up.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/green up";
+			};
+			name = Release;
+		};
+		FB1026E72D9646540085A9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.green-upUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "green up";
+			};
+			name = Debug;
+		};
+		FB1026E82D9646540085A9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmilenio.green-upUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "green up";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB1026B72D9646530085A9BB /* Build configuration list for PBXProject "green up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1026DE2D9646540085A9BB /* Debug */,
+				FB1026DF2D9646540085A9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1026E02D9646540085A9BB /* Build configuration list for PBXNativeTarget "green up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1026E12D9646540085A9BB /* Debug */,
+				FB1026E22D9646540085A9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1026E32D9646540085A9BB /* Build configuration list for PBXNativeTarget "green upTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1026E42D9646540085A9BB /* Debug */,
+				FB1026E52D9646540085A9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1026E62D9646540085A9BB /* Build configuration list for PBXNativeTarget "green upUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1026E72D9646540085A9BB /* Debug */,
+				FB1026E82D9646540085A9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB1026B42D9646530085A9BB /* Project object */;
+}
